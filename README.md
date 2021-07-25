@@ -1,13 +1,12 @@
-[![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=4717889&assignment_repo_type=AssignmentRepo)
-# [RELATÓRIO] SEGUNDA CHAMADA - PROBLEMA 1
+# SIMULAÇÃO DE ESTACIONAMENTO EM C++
 
 <h2>1. INTRODUÇÃO.</h2>
 
-<h5 align="justify">O problema 1 consiste em um estacionamento autônomo, onde seu funcionamento é descrito no documento Segunda Chamada Problema 1 disponibilizado pelo professor Antônio Apolinário. Este relatório contém a descrição de como é a solução do problema e todos os pontos críticos para elaboração do programa. É importante lembrar que a solução foi construída com embasamento adquirido da disciplina de Estrutura de Dados e Algoritmos I.</h5>
+<h5 align="justify">Este relatório contém a descrição de como é a solução do problema e todos os pontos críticos para elaboração do programa. É importante lembrar que a solução foi construída com embasamento em Estrutura de Dados e Algoritmos.</h5>
 
 <h2>2. SOLUÇÃO DO PROBLEMA.</h2>
 
-<h5 align="justify"> A solução do problema foi construída tendo como referência o documento já citado e algumas imagens retiradas do google. Uma das imagens está anexada a seguir:</h5>
+<h5 align="justify"> A solução do problema foi construída tendo como referência algumas imagens retiradas do google. Uma das imagens está anexada a seguir:</h5>
 <img   src="https://austin.culturemap.com/thumbnail/600x600/photos/2013/07/24/full-parking-lot_154506.jpg">
 <h5 align="justify">A ideia principal era alocação dos carros um após o outro em linhas adjacentes. E para a retirada de um carro, deveria haver a transferência de todos os carros da frente para uma área de manobra. O carro a ser retirado ía para última vaga da área de manobra, na qual essa última vaga é justamente a saída, portanto, o carro na vaga final era removido do estacionamento, e por fim, todos os carros alocados na área de manobra eram transferidos para sua linha original respeitando a mesma ordem.</h5>
 
@@ -38,6 +37,3 @@ Para começo do programa, é gerado aleatoriamente um número de linhas de 2 a 5
 Ao pressionar para retirar, ele pedirá pela linha e logo em seguida pela posição do carro. Após isso ele mandará os carros da frente para a área de manobra, e depois retornará os carros para a linha original sem o carro que foi pedido para ser retirado, já que esse carro foi para a saída. Por fim, ele pergunta se o usuário deseja continuar rodando o programa ou não. Caso sim, ele retorna a pergunta inicial, nesse ponto já é possível estacionar ou retirar, já que existe uma linha com vaga desocupada.
 
 Caso escolha estacionar, ele perguntará a linha e automaticamente gerará um carro com placa aleatória e fará a inserção do carro na linha escolhida. Aqui ele fará novamente a pergunta se o usuário deseja continuar rodando o programa.</h5>
-
-<h2>4. CONCLUSÃO.</h2>
-<h5 align = "justify">Portanto, é possível verificar o bom funcionamento do programa e seu cumprimento com os requisitos-chave do problema. Abrindo um parênteses para uma opinião pessoal sobre o projeto, eu posso dizer que gostei muito da ideia, já que se encaixa justamente com minha graduação (Engenharia de Controle e Automação), o que me motivou muito mais a criar uma resolução para o problema. Além disso, esse método adotado pelo professor Apolinário é simplesmente muito proveitoso, para de fato buscar entender as utilidades reais das estruturas de dados e dos algoritmos que nos foram passados na disciplina.</h5>
